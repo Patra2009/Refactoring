@@ -14,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// refactor: moved logic to service layer
+
 Route::get('/', [MovieController::class, 'index']);
 Route::get('/movie/{id}', [MovieController::class, 'detail']);
 Route::get('/movies/create', [MovieController::class, 'create']);
