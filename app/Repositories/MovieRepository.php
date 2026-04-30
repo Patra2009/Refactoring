@@ -59,3 +59,5 @@ class MovieRepository implements MovieRepositoryInterface
         return Category::all();
     }
 }
+
+// feat: repository layer implemented
